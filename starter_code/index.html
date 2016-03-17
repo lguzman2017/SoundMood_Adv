@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon.ico">
-
     <title>Soundmood</title>
 
     <!-- CSS -->
@@ -20,7 +19,7 @@
     <!-- Bootstrap -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <!-- Soundcloud API -->
-    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="//connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
     <!-- Our JS -->
     <script src="js/script.js"></script>
 
@@ -28,7 +27,7 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Soundmood</h1>
+        <h1><font color="blue">Soundmood</h1>
         <p class="lead">Listen to your heart, you can never go wrong.</p>
         <form>
           <div class="input-group">
@@ -38,11 +37,19 @@
         </form>
 
         <br>
-        <p><a id="random" class="btn btn-lg btn-success" href="#" role="button">Randomize</a></p>
+        <p><a id="random-btn" class="btn btn-lg btn-success" href="#" role="button">Randomize</a></p>
         <p id="moodstatus"></p>
         <p id="songtitle"></p>
       </div>
-
+<br>
+         <button type="mood" id="mad-btn" class="btn btn-lg btn-success"><font color="blue">Mad</button>
+                        
+                         <button type="mood" id="glad-btn" class="btn btn-lg btn-success"><font color="blue">Glad</font></button>
+                         <button type="mood" id="sad-btn" class="btn btn-lg btn-success"><font color="blue">Sad</font></button>
+                         <button type="mood" id="angry-btn" class="btn btn-lg btn-success"><font color="blue">Angry</font></button>
+                         <button type="mood" id="curious-btn" class="btn btn-lg btn-success"><font color="blue">Curious</font></button>
+                    </div>
+        
       <div class="footer">
         <p>&copy; Soundmood</p>
       </div>

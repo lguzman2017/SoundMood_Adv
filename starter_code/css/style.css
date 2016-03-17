@@ -2,5 +2,22 @@
     max-width:300px;
     max-height:500px;
 }
+background {
+    color: red ;
+}
 
 
+#reset-btn {
+	width: 180px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	font-size:20px;
+	
+}
+#reset-btn:hover {
+	background: turquoise;
+ 
+}
